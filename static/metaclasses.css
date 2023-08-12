@@ -1,0 +1,14 @@
+.flex_space_beetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar{
+    width: var(--x-width);
+    height: var(--x-hight);
+    background-position: 25% 25%;
+    background-size: 150%;
+    border: .3rem solid darkmagenta;
+    border-radius: 50%;
+}

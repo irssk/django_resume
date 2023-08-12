@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Exo2';
+    src: url('fonts/Exo2-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+:root {
+
+
+
+
+    /** ----------FONTS---------- */
+
+    --primary-font: Exo2;
+    --secondary-font: Raleway;
+    --another-font: Montserrat;
+
+    --xxs-font-size: 1rem;
+    --xs-font-size: 1.5rem;
+    --x-font-size: 2rem;
+    --xm-font-size: 3rem;
+    --xl-font-size: 5rem;
+    --xxl-font-size: 7rem;
+
+
+
+    /** ----------COLORS--------- */
+
+    --primary-color: ;
+    --secondary-color: ;
+    --another-color: ;
+    --header-color: linear-gradient(
+        rgba(13, 23, 40, 0.897),
+        rgba(116, 31, 85, 0.857)
+        );
+
+
+
+
+    /** ----------HI-WI--------- */
+
+    --xxs-hight: 1rem;    
+    --xs-hight: 3rem;
+    --x-hight: 5rem;
+    --xm-hight: 10rem;
+    --xl-hight: 20rem;
+    --xxl-hight: 30rem;
+
+    --xxs-width: 1rem;    
+    --xs-width: 3rem;
+    --x-width: 5rem;
+    --xm-width: 10rem;
+    --xl-width: 20rem;
+    --xxl-width: 30rem;
+
+
+    /** ----------PA-MA--------- */
+
+    --xxs-padding: 1rem;    
+    --xs-padding: 3rem;
+    --x-padding: 5rem;
+    --xm-padding: 10rem;
+    --xl-padding: 20rem;
+    --xxl-padding: 30rem;
+
+    --xxs-margin: 1rem;    
+    --xs-margin: 3rem;
+    --x-margin: 5rem;
+    --xm-margin: 10rem;
+    --xl-margin: 20rem;
+    --xxl-margin: 30rem;
+
+
+
+
+  }

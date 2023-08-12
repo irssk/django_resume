@@ -1,0 +1,25 @@
+{% extends '_base.html'%}
+{% load static %}
+
+<!--* HEAD -->
+{% block title %}
+Thank you!
+{% endblock title %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'app/app.css' %}">
+{% endblock style %}
+
+<!--* BODY -->
+
+{% block header %}
+    {% include './includes/_header.html' %}
+{% endblock header %}
+
+{% block main %}
+    {% include './includes/_form_skill.html' %}
+{% endblock main %}
+
+{% block footer %}
+    {% include './includes/_footer.html' %}
+{% endblock footer %}

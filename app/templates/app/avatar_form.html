@@ -1,0 +1,22 @@
+{% extends '_base.html'%}
+{% load static %}
+
+{% block title %}
+Change Avatar
+{% endblock title %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'app/app.css' %}">
+{% endblock style %}
+
+{% block header %}
+    {% include './includes/_header.html' %}
+{% endblock header %}
+
+{% block main %}
+    {% include './includes/_form_upload_avatar.html' %}
+{% endblock main %}
+
+{% block footer %}
+    {% include './includes/_footer.html' %}
+{% endblock footer %}

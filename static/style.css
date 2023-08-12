@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background: var(--header-color);
+    display: flex;
+    justify-content: center;
+}
+
+.header__wrapper{
+    width: 75%;
+}
+
+.social__icon {
+    height: var(--xs-hight);
+}
+
+.header__nav{
+    font-size: var(--xs-font-size);
+    font-family: var(--secondary-font);
+}
+
+.content{
+    width: 80%;
+}
